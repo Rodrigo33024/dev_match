@@ -48,3 +48,15 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
   color: white;
 }
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+
+  &:hover, &:focus {
+    background-color: #0072ff;
+  }
+}
