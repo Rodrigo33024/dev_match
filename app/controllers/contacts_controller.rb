@@ -9,7 +9,8 @@ class ContactsController < ApplicationController
     if @contact.save
       redirect_to new_contact_path, notice: 'Message Sent.'
     else
-      render 'new', notice: 'Something went wrong.'
+      flash.now[:notice] = 'Something went wrong.'
+      render 'new'
     end
   end
 
