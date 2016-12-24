@@ -23,6 +23,11 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', sans-serif;
 }
 
+.navbar-brand {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
+
 .jumbotron, .navbar {
   background: #00c6ff; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #00c6ff , #0072ff); /* Chrome 10-25, Safari 5.1-6 */
