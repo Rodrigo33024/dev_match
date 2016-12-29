@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'devise', '4.2.0'
 gem 'font-awesome-sass', '4.6.2'
 gem 'bootstrap-sass', '3.3.7'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -36,7 +37,7 @@ end
 
 group :development do
   # Use sqlite3 as the database for Active Record
-  gem 'sqlite3'
+  gem 'sqlite3', '1.3.12'
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console'
   gem 'listen', '3.0.5'
