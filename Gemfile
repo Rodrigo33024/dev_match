@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'figaro', '1.1.1'
+gem 'stripe', '1.48.0'
 gem 'devise', '4.2.0'
 gem 'font-awesome-sass', '4.6.2'
 gem 'bootstrap-sass', '3.3.7'
