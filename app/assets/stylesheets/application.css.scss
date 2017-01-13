@@ -63,4 +63,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .alert.alert-alert, .alert.alert-notice {
   position: absolute;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.relative {
+  position: relative;
 }
