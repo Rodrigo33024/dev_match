@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'paperclip', '~> 4.3.6'
 gem 'figaro', '1.1.1'
 gem 'stripe', '1.48.0'
 gem 'devise', '4.2.0'
