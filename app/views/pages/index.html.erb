@@ -10,11 +10,11 @@
         <div class="well">
           <h2 class="text-center">Your Profile</h2>
           <% if current_user.profile %>
-            <%= link_to 'Edit Your Profile', user_profile_path(user_id: current_user.id), class: 'btn btn-default btn-large btn-block'  %>
+            <%= link_to 'Edit Your Profile', edit_user_profile_path(user_id: current_user.id), class: 'btn btn-default btn-large btn-block'  %>
             <%= link_to 'View Your Profile', user_path(current_user.id), class: 'btn btn-default btn-large btn-block'  %>
           <% else %>
             <p>
-              Create a profile to share your inrfomation with the community.
+              Create a profile to share your information with the community.
             </p>
             <%= link_to 'Create Your Profile', new_user_profile_path(user_id: current_user.id), class: 'btn btn-default btn-large btn-block'  %>
           <% end %>
